@@ -13,10 +13,8 @@ public class Task extends Model {
  
     public String title;
     public Date postedAt;
-    
     @Lob
     public String content;
-    
     @ManyToOne
     public User author;
     

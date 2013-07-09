@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import play.test.UnitTest;
 
-public class UserTest  extends UnitTest {
+public class UserTest  extends GenericTests {
 	@Test
 	public void createAndRetrieveUser() {
 	    // Create a new user and save it

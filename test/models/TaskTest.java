@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import play.test.UnitTest;
 
-public class TaskTest  extends UnitTest {	
+public class TaskTest  extends GenericTests {	
 	@Test
 	public void createAndRetrieveTask() {
 		User bob = new User("bob@gmail.com", "secret", "Bob").save();
